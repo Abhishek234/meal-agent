@@ -68,15 +68,45 @@ Rules:
 
 Respond in simple Hinglish so the home cook can easily understand and follow. Use only common Indian ingredients and avoid repeating dishes from recent days. Try 1 new dish on weekends.
 
-Format your response as:
-**Breakfast:**
-• [meal name and description]
+Format your response with proper markdown structure:
 
-**Lunch:**
-• [meal name and description]
+# 🍽️ **Meal Plan for {day} - {people} People**
 
-**Dinner:**
-• [meal name and description]
+---
+
+## 🍳 **Breakfast**
+
+• **Dish Name:** [meal name]
+
+• **Description:** [brief description]
+
+• **Key Ingredients:** [main ingredients]
+
+• **Cooking Time:** [estimated time]
+
+---
+
+## 🍽️ **Lunch**
+
+• **Dish Name:** [meal name]
+
+• **Description:** [brief description]
+
+• **Key Ingredients:** [main ingredients]
+
+• **Cooking Time:** [estimated time]
+
+---
+
+## 🌙 **Dinner**
+
+• **Dish Name:** [meal name]
+
+• **Description:** [brief description]
+
+• **Key Ingredients:** [main ingredients]
+
+• **Cooking Time:** [estimated time]
 """
 
 # -------------------------------
